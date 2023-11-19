@@ -16,11 +16,6 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
-            steps {
-                echo 'Deliver stage complete'
-            }
-        }
         stage('Complete') {
             steps {
                 echo 'Job Completed !'
